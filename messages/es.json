@@ -1,0 +1,216 @@
+{
+  "Metadata": {
+    "title": "Agustín Ferronato — Medicina Estética y Formación",
+    "description": "Consultorio de medicina estética dirigido por Agustín Ferronato. Tratamientos de armonización facial con criterio clínico y resultado natural, y formación profesional individual y grupal en procedimientos estéticos.",
+    "keywords": [
+      "Agustín Ferronato",
+      "medicina estética",
+      "armonización facial",
+      "rinomodelación",
+      "formación en medicina estética",
+      "cursos de armonización facial",
+      "consultorio estético"
+    ]
+  },
+  "Nav": {
+    "ariaLabel": "Navegación principal",
+    "treatments": "Tratamientos",
+    "clinic": "Clínica",
+    "training": "Formación",
+    "about": "Nosotros",
+    "faq": "Preguntas",
+    "contact": "Contacto",
+    "languageSwitchGroupLabel": "Selector de idioma",
+    "switchToEs": "Cambiar a español",
+    "switchToEn": "Cambiar a inglés"
+  },
+  "Common": {
+    "bookCta": "Agendar consulta"
+  },
+  "Hero": {
+    "ariaLabel": "Presentación",
+    "videoLabel": "Video hero: consultorio y procedimiento en cámara lenta",
+    "titleLine1": "PRECISIÓN &",
+    "titleLine2": "ARTE",
+    "subtitle": "Criterio clínico, resultado natural y formación continua: la filosofía de trabajo de Agustín Ferronato en medicina estética."
+  },
+  "Treatments": {
+    "pill": "CLÍNICA",
+    "title": "Tratamientos",
+    "more": "Ver más",
+    "categories": {
+      "armonizacion": "Armonización facial",
+      "rino": "Rinomodelación",
+      "bio": "Bioestimuladores",
+      "labial": "Perfilado labial",
+      "skin": "Skinbooster"
+    }
+  },
+  "Training": {
+    "module1": {
+      "mediaLabel": "Retrato del alumno junto a Agustín Ferronato en consultorio",
+      "kicker": "Formación · Modalidad individual",
+      "titleLine1": "Práctica Personalizada —",
+      "titleLine2": "Formación 1 a 1",
+      "lede": [
+        "Jornada de acompañamiento directo junto a Agustín Ferronato, pensada para profesionales que buscan profundizar criterio clínico y práctica real en procedimientos de armonización facial.",
+        "El profesional participa activamente observando, asistiendo y aplicando técnicas bajo supervisión directa."
+      ],
+      "blocks": [
+        {
+          "heading": "Práctica",
+          "items": ["Procedimientos pre pactados (rinomodelación, labios, mentón, pómulos)"]
+        },
+        {
+          "heading": "Incluye",
+          "items": ["Unidades de producto necesarias para la práctica"]
+        },
+        {
+          "heading": "Extras",
+          "items": ["Procedimientos adicionales, a cotizar según necesidad"]
+        },
+        {
+          "heading": "Importante",
+          "items": [
+            "Los modelos son provistos por la organización",
+            "El staff provee materiales, equipamiento y asistencia técnica"
+          ]
+        },
+        {
+          "heading": "Requisitos excluyentes",
+          "items": ["Matrícula profesional habilitada"]
+        }
+      ],
+      "priceValue": "Consultar valor",
+      "priceUnit": "1 jornada"
+    },
+    "module2": {
+      "mediaLabel": "Detalle de procedimiento de armonización facial",
+      "kicker": "Formación · Módulo clínico",
+      "titleLine1": "Armonización Facial Integral —",
+      "titleLine2": "Técnicas combinadas",
+      "lede": [
+        "El módulo más solicitado: combina rinomodelación, perfilado labial y definición de mentón en una misma jornada de formación intensiva."
+      ],
+      "blocks": [
+        {
+          "heading": "El profesional adquiere",
+          "items": [
+            "Criterio estético aplicado al tercio medio e inferior del rostro",
+            "Dominio técnico en armonización facial",
+            "Protocolos actualizados y reproducibles"
+          ]
+        },
+        {
+          "heading": "Modalidad",
+          "items": ["Hands-on con prácticas clínicas supervisadas"]
+        },
+        {
+          "heading": "Prácticas clínicas",
+          "items": ["Incluye prácticas supervisadas dentro del módulo"]
+        }
+      ],
+      "priceValue": "Consultar valor",
+      "priceUnit": "valor regular"
+    }
+  },
+  "FeaturedStrip": {
+    "title": "TRATAMIENTOS DESTACADOS",
+    "viewTreatment": "Ver tratamiento",
+    "items": {
+      "rino": "Rinomodelación",
+      "labial": "Perfilado de labios",
+      "menton": "Definición de mentón",
+      "pomulos": "Pómulos y contorno facial"
+    }
+  },
+  "Testimonials": {
+    "heading": "“La opinión de nuestros pacientes”",
+    "patientLabel": "Paciente",
+    "items": [
+      {
+        "initial": "M",
+        "name": "Milagros",
+        "quote": "Antes de la sesión me explicaron cada paso del procedimiento. El resultado fue exactamente lo que buscaba: natural y equilibrado."
+      },
+      {
+        "initial": "L",
+        "name": "Lucía",
+        "quote": "El proceso fue progresivo y sin apuro. Hoy me siento mucho más segura con mi rostro, sin que se note que hice algo."
+      },
+      {
+        "initial": "P",
+        "name": "Paula",
+        "quote": "Cambié la estructura de mi mentón y el resultado fue sutil pero notorio. Superó lo que esperaba."
+      }
+    ]
+  },
+  "RelatedProducts": {
+    "title": "Productos relacionados",
+    "items": {
+      "skincare": "Skincare post-procedimiento",
+      "spf": "Protector solar FPS 50+",
+      "serum": "Sérum reparador",
+      "kit": "Kit de cuidado facial"
+    }
+  },
+  "About": {
+    "pill": "NOSOTROS",
+    "leadStrong": "Agustín Ferronato es médico especialista en medicina estética y formador de profesionales en armonización facial.",
+    "leadMuted": "Desde hace años combina la práctica clínica diaria con la formación de otros profesionales, bajo un mismo criterio: resultado natural antes que intervención visible.",
+    "mediaLabel": "Retrato de Agustín Ferronato en consultorio",
+    "copyParagraph1": "Su trabajo abarca la consulta clínica particular, donde evalúa y planifica cada tratamiento de armonización facial de forma individual, y la formación de médicos y profesionales de la salud que buscan incorporar criterio estético y técnica actualizada a su propia práctica.",
+    "copyParagraph2": "Reconocido por su enfoque conservador y su atención al detalle anatómico, Ferronato se referencia dentro de una generación de profesionales para quienes el verdadero resultado está en que nadie note que hubo un procedimiento — solo que algo cambió para bien.",
+    "splitLabel": "Su trabajo se organiza en dos ejes complementarios: <b>Clínica</b> y <b>Formación</b>.",
+    "splitParagraph": "Con base en el <b>Método Precisión & Arte</b>, un protocolo propio que evalúa proporción, estructura y calidad de piel antes de definir cualquier tratamiento, Ferronato trabaja con un objetivo central: respetar la identidad de cada paciente y lograr resultados naturales, seguros y técnicamente impecables — tanto en el consultorio como en cada jornada de formación."
+  },
+  "Faq": {
+    "pill": "FAQ'S",
+    "titleLine1": "Preguntas",
+    "titleLine2": "Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué tratamientos realiza Agustín Ferronato?",
+        "answer": ["Armonización facial, rinomodelación, bioestimuladores, perfilado labial y skinbooster, entre otros procedimientos de medicina estética no invasiva."]
+      },
+      {
+        "question": "¿Cómo puedo reservar un turno?",
+        "answer": ["Podés coordinar tu consulta por WhatsApp o teléfono al {phone}, o directamente desde este sitio."]
+      },
+      {
+        "question": "¿Los tratamientos son aptos para hombres y mujeres?",
+        "answer": ["Sí, todos los tratamientos pueden aplicarse en ambos géneros. Lo que varía son las técnicas y cantidades de producto según el resultado buscado."]
+      },
+      {
+        "question": "¿Qué necesito para participar de la formación profesional?",
+        "answer": ["Matrícula profesional habilitada. El staff provee materiales, equipamiento y asistencia técnica durante toda la jornada."]
+      },
+      {
+        "question": "¿Con cuánta anticipación debo reservar?",
+        "answer": ["Debido a la alta demanda, recomendamos reservar con anticipación. En la primera consulta se evalúa el caso y se define el plan de tratamiento."]
+      }
+    ]
+  },
+  "Footer": {
+    "ctaLabel": "Agendar consulta →",
+    "contactsHeading": "Contactos",
+    "clinicLabel": "Clínica",
+    "turnosLabel": "Turnos",
+    "formacionLabel": "Formación",
+    "sedesHeading": "Sedes",
+    "sede1Name": "Palermo",
+    "sede2Name": "Belgrano",
+    "addressPlaceholder": "Dirección a confirmar",
+    "socialHeading": "Redes sociales",
+    "socialClinicHandle": "@clínica",
+    "socialTrainingHandle": "@formación",
+    "copyright": "Copyright © {year} {name} — Todos los derechos reservados"
+  },
+  "FloatingWidgets": {
+    "chatTitle": "¿Cómo puedo ayudarte?",
+    "assistantName": "Asistente",
+    "onlineLabel": "Online",
+    "whatsappLabel": "Whatsapp",
+    "fabAriaLabel": "Contactar por WhatsApp"
+  }
+}

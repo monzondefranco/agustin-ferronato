@@ -1,0 +1,216 @@
+{
+  "Metadata": {
+    "title": "Agustín Ferronato — Aesthetic Medicine & Training",
+    "description": "Aesthetic medicine practice led by Agustín Ferronato. Facial harmonization treatments with clinical judgment and natural results, plus individual and group professional training in aesthetic procedures.",
+    "keywords": [
+      "Agustín Ferronato",
+      "aesthetic medicine",
+      "facial harmonization",
+      "rhinomodeling",
+      "aesthetic medicine training",
+      "facial harmonization courses",
+      "aesthetic clinic"
+    ]
+  },
+  "Nav": {
+    "ariaLabel": "Main navigation",
+    "treatments": "Treatments",
+    "clinic": "Clinic",
+    "training": "Training",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "languageSwitchGroupLabel": "Language selector",
+    "switchToEs": "Switch to Spanish",
+    "switchToEn": "Switch to English"
+  },
+  "Common": {
+    "bookCta": "Book a consultation"
+  },
+  "Hero": {
+    "ariaLabel": "Introduction",
+    "videoLabel": "Hero video: clinic and procedure in slow motion",
+    "titleLine1": "PRECISION &",
+    "titleLine2": "ARTISTRY",
+    "subtitle": "Clinical judgment, natural results and continuous training: Agustín Ferronato's approach to aesthetic medicine."
+  },
+  "Treatments": {
+    "pill": "CLINIC",
+    "title": "Treatments",
+    "more": "See more",
+    "categories": {
+      "armonizacion": "Facial harmonization",
+      "rino": "Rhinomodeling",
+      "bio": "Biostimulators",
+      "labial": "Lip contouring",
+      "skin": "Skinbooster"
+    }
+  },
+  "Training": {
+    "module1": {
+      "mediaLabel": "Portrait of the trainee with Agustín Ferronato in the clinic",
+      "kicker": "Training · One-on-one",
+      "titleLine1": "Personalized Practice —",
+      "titleLine2": "One-on-One Training",
+      "lede": [
+        "A direct mentorship day alongside Agustín Ferronato, designed for professionals looking to deepen their clinical judgment and get real hands-on practice in facial harmonization procedures.",
+        "The professional takes an active role: observing, assisting and applying techniques under direct supervision."
+      ],
+      "blocks": [
+        {
+          "heading": "Practice",
+          "items": ["Pre-agreed procedures (rhinomodeling, lips, chin, cheekbones)"]
+        },
+        {
+          "heading": "Includes",
+          "items": ["Product units required for the practice"]
+        },
+        {
+          "heading": "Extras",
+          "items": ["Additional procedures, quoted as needed"]
+        },
+        {
+          "heading": "Important",
+          "items": [
+            "Models are provided by the organization",
+            "Staff provides materials, equipment and technical assistance"
+          ]
+        },
+        {
+          "heading": "Mandatory requirements",
+          "items": ["Valid professional license"]
+        }
+      ],
+      "priceValue": "Contact for pricing",
+      "priceUnit": "1 day session"
+    },
+    "module2": {
+      "mediaLabel": "Close-up of a facial harmonization procedure",
+      "kicker": "Training · Clinical module",
+      "titleLine1": "Comprehensive Facial Harmonization —",
+      "titleLine2": "Combined Techniques",
+      "lede": [
+        "The most requested module: combines rhinomodeling, lip contouring and chin definition in a single intensive training day."
+      ],
+      "blocks": [
+        {
+          "heading": "The professional gains",
+          "items": [
+            "Aesthetic judgment applied to the mid and lower face",
+            "Technical mastery of facial harmonization",
+            "Up-to-date, reproducible protocols"
+          ]
+        },
+        {
+          "heading": "Format",
+          "items": ["Hands-on with supervised clinical practice"]
+        },
+        {
+          "heading": "Clinical practice",
+          "items": ["Includes supervised practice within the module"]
+        }
+      ],
+      "priceValue": "Contact for pricing",
+      "priceUnit": "regular price"
+    }
+  },
+  "FeaturedStrip": {
+    "title": "FEATURED TREATMENTS",
+    "viewTreatment": "View treatment",
+    "items": {
+      "rino": "Rhinomodeling",
+      "labial": "Lip contouring",
+      "menton": "Chin definition",
+      "pomulos": "Cheekbones & facial contour"
+    }
+  },
+  "Testimonials": {
+    "heading": "“What our patients say”",
+    "patientLabel": "Patient",
+    "items": [
+      {
+        "initial": "M",
+        "name": "Milagros",
+        "quote": "Before the session, they explained every step of the procedure to me. The result was exactly what I was looking for: natural and balanced."
+      },
+      {
+        "initial": "L",
+        "name": "Lucía",
+        "quote": "The process was gradual and unhurried. Today I feel much more confident in my face, without anyone noticing I had anything done."
+      },
+      {
+        "initial": "P",
+        "name": "Paula",
+        "quote": "I changed the structure of my chin and the result was subtle but noticeable. It exceeded what I expected."
+      }
+    ]
+  },
+  "RelatedProducts": {
+    "title": "Related products",
+    "items": {
+      "skincare": "Post-procedure skincare",
+      "spf": "SPF 50+ sunscreen",
+      "serum": "Repairing serum",
+      "kit": "Facial care kit"
+    }
+  },
+  "About": {
+    "pill": "ABOUT",
+    "leadStrong": "Agustín Ferronato is a physician specializing in aesthetic medicine and a trainer of facial harmonization professionals.",
+    "leadMuted": "For years he has combined daily clinical practice with training other professionals, under one same criterion: natural results over visible intervention.",
+    "mediaLabel": "Portrait of Agustín Ferronato in the clinic",
+    "copyParagraph1": "His work spans private clinical consultations, where he assesses and plans each facial harmonization treatment individually, and the training of physicians and health professionals looking to bring aesthetic judgment and up-to-date technique into their own practice.",
+    "copyParagraph2": "Recognized for his conservative approach and attention to anatomical detail, Ferronato is part of a generation of professionals for whom the true result is that no one notices a procedure took place — only that something changed for the better.",
+    "splitLabel": "His work is organized around two complementary pillars: <b>Clinic</b> and <b>Training</b>.",
+    "splitParagraph": "Based on the <b>Precision & Artistry Method</b>, a proprietary protocol that evaluates proportion, structure and skin quality before defining any treatment, Ferronato works toward one central goal: respecting each patient's identity and achieving natural, safe and technically flawless results — both in the clinic and in every training session."
+  },
+  "Faq": {
+    "pill": "FAQ",
+    "titleLine1": "Frequently",
+    "titleLine2": "Asked Questions",
+    "items": [
+      {
+        "question": "What treatments does Agustín Ferronato perform?",
+        "answer": ["Facial harmonization, rhinomodeling, biostimulators, lip contouring and skinbooster, among other non-invasive aesthetic medicine procedures."]
+      },
+      {
+        "question": "How can I book an appointment?",
+        "answer": ["You can arrange your consultation via WhatsApp or phone at {phone}, or directly through this site."]
+      },
+      {
+        "question": "Are the treatments suitable for both men and women?",
+        "answer": ["Yes, all treatments can be applied to any gender. What varies is the technique and the amount of product used, depending on the desired result."]
+      },
+      {
+        "question": "What do I need to take part in the professional training?",
+        "answer": ["A valid professional license. Staff provides materials, equipment and technical assistance throughout the day."]
+      },
+      {
+        "question": "How far in advance should I book?",
+        "answer": ["Due to high demand, we recommend booking in advance. The first consultation is used to assess the case and define the treatment plan."]
+      }
+    ]
+  },
+  "Footer": {
+    "ctaLabel": "Book a consultation →",
+    "contactsHeading": "Contact",
+    "clinicLabel": "Clinic",
+    "turnosLabel": "Appointments",
+    "formacionLabel": "Training",
+    "sedesHeading": "Locations",
+    "sede1Name": "Palermo",
+    "sede2Name": "Belgrano",
+    "addressPlaceholder": "Address to be confirmed",
+    "socialHeading": "Social media",
+    "socialClinicHandle": "@clinic",
+    "socialTrainingHandle": "@training",
+    "copyright": "Copyright © {year} {name} — All rights reserved"
+  },
+  "FloatingWidgets": {
+    "chatTitle": "How can I help you?",
+    "assistantName": "Assistant",
+    "onlineLabel": "Online",
+    "whatsappLabel": "WhatsApp",
+    "fabAriaLabel": "Contact via WhatsApp"
+  }
+}
