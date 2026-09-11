@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site-config";
@@ -14,12 +17,34 @@ const linkKeys = [
 
 export default function Nav() {
   const t = useTranslations("Nav");
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const hero = document.querySelector<HTMLElement>(".hero");
+
+    const onScroll = () => {
+      const bottom = hero?.getBoundingClientRect().bottom ?? 0;
+      setScrolled(bottom <= 0);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
 
   return (
-    <header className="nav">
+    <header className={`nav${scrolled ? "" : " nav-transparent"}`}>
       <div className="nav-inner">
-        <Link href="/" className="logo">
-          {siteConfig.name}
+        <Link href="/" className="logo" aria-label={siteConfig.name}>
+          <span className="logo-full" aria-hidden="true">
+            {siteConfig.name}
+          </span>
+          <span className="logo-short" aria-hidden="true">
+            AF
+          </span>
         </Link>
         <nav className="menu" aria-label={t("ariaLabel")}>
           {linkKeys.map((link) => (

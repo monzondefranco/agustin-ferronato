@@ -82,12 +82,43 @@ img {
 
 /* ---------- NAV ---------- */
 header.nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    backdrop-filter 0.3s ease;
+}
+/* Transparent, light-text state before scrolling — desktop only */
+@media (min-width: 901px) {
+  header.nav.nav-transparent {
+    background: transparent;
+    backdrop-filter: none;
+    border-bottom-color: transparent;
+  }
+  header.nav.nav-transparent .logo,
+  header.nav.nav-transparent nav.menu a {
+    color: #fff;
+  }
+  header.nav.nav-transparent nav.menu a:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  header.nav.nav-transparent .lang-switch {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  header.nav.nav-transparent .lang-switch-current {
+    color: #fff;
+  }
+  header.nav.nav-transparent .lang-switch-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  header.nav.nav-transparent .lang-switch-sep {
+    color: rgba(255, 255, 255, 0.4);
+  }
 }
 .nav-inner {
   max-width: var(--maxw);
@@ -107,6 +138,18 @@ header.nav {
   font-style: italic;
   font-size: 30px;
   letter-spacing: 0.02em;
+  transition: color 0.3s ease;
+}
+.logo-short {
+  display: none;
+}
+@media (max-width: 900px) {
+  .logo-full {
+    display: none;
+  }
+  .logo-short {
+    display: inline;
+  }
 }
 nav.menu {
   display: flex;
@@ -119,6 +162,7 @@ nav.menu a {
   display: flex;
   align-items: center;
   gap: 4px;
+  transition: color 0.3s ease;
 }
 nav.menu a:hover {
   color: var(--accent-dark);
@@ -183,13 +227,33 @@ nav.menu a:hover {
   overflow: hidden;
   background: #1c1c18;
 }
-.hero video,
 .hero .ph {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.hero-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-media-mobile {
+  display: none;
+}
+.hero-media-desktop {
+  display: block;
+}
+@media (max-width: 900px) {
+  .hero-media-mobile {
+    display: block;
+  }
+  .hero-media-desktop {
+    display: none;
+  }
 }
 .hero::after {
   content: "";

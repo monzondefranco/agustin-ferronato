@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Placeholder from "./Placeholder";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -7,8 +7,26 @@ export default function Hero() {
 
   return (
     <section className="hero" aria-label={t("ariaLabel")}>
-      {/* TODO: reemplazar por <video autoPlay muted loop playsInline src="/hero.mp4" /> cuando haya asset */}
-      <Placeholder label={t("videoLabel")} />
+      <video
+        className="hero-media hero-media-mobile"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="none"
+        aria-hidden="true"
+      >
+        <source src="/hero-section/hero-video-mobile.mp4" type="video/mp4" />
+      </video>
+      <Image
+        src="/hero-section/hero-section-imagen.jpg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="hero-media hero-media-desktop"
+        style={{ objectFit: "cover" }}
+      />
       <div className="hero-content">
         <h1>
           {t("titleLine1")}
